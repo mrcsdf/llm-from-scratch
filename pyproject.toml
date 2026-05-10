@@ -1,0 +1,13 @@
+[project]
+name = "llm-from-scratch"
+requires-python = ">=3.12"
+dependencies = [
+    "torch",
+    "numpy",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "pytest",
+]
